@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insta Login Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body>
+    <main
+      class="flex bg-gray-100 h-screen w-screen flex-col items-center justify-center"
+    >
+      <div
+        class="flex h-[80vh] my-6 w-[60vw] md:w-[30vw] flex-col items-center justify-center border-[1px] border-gray-400"
+      >
+        <div class="w-[60%] mb-10">
+          <img src="images/logo.png" alt="insta logo" />
+        </div>
+        <input
+          class="my-1 w-[84%] rounded-md border-[1px] border-gray-400 px-4 py-2 text-sm focus:border-[1px] focus:border-gray-500 focus:outline-none"
+          type="text"
+          placeholder="Phone number, username, or email "
+        />
+        <input
+          class="my-1 w-[84%] rounded-md border-[1px] border-gray-400 px-4 py-2 text-sm focus:border-[1px] focus:border-gray-500 focus:outline-none"
+          type="text"
+          placeholder="Password"
+        />
+
+        <button class="my-4 w-[84%] rounded-lg bg-blue-500 py-1 text-white">
+          Log in
+        </button>
+
+        <div class="flex items-center justify-center">
+          <div class="mx-4 h-[1px] w-28 bg-gray-400"></div>
+          <p>OR</p>
+          <div class="mx-4 h-[1px] w-28 bg-gray-400"></div>
+        </div>
+
+        <div class="my-7 flex items-center justify-center">
+          <p><i class="ri-facebook-box-fill text-blue-800 text-2xl"></i></p>
+          <p class="text-md px-2 font-semibold text-blue-800">
+            Log in with Facebook
+          </p>
+        </div>
+
+        <p class="text-sm text-gray-700">Forgot password?</p>
+      </div>
+      <div
+        class="my-3 flex h-10 w-[60vw] md:w-[30vw] items-center justify-center border-[1px] border-gray-600"
+      >
+        <p class="text-sm">Don't have an account?</p>
+        <p class="text-md mx-1 font-semibold text-blue-400">Sign up</p>
+      </div>
+    </main>
+  </body>
+</html>
